@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    min-height: 100vh;
+    min-width: 100vw;
+    background: linear-gradient(to right, #005aa7, #fffde4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.card{
+    background: rgb(73, 1, 73);
+    width:60%;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.rightbox{
+ width: 50%;
+ 
+
+}
+
+.leftbox{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    
+    padding: 4rem;
+    gap:5.4rem;
+}
+
+.leftbox h2{
+    color: white;
+    font-size: 3rem;
+    font-size: 2.5rem;
+}
+
+.rightbox img{
+    
+    width:100%;
+    height:100%
+}
+.leftbox p{
+    color: white;
+    font-size: 15px;
+    line-height: 1.3em;
+    font-weight: lighter;
+}
+
+
+.bottombox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+h3{
+    color:white;
+    font-size: x-large;
+}
+
+#comments p{
+    font-size: small;
+}
+
+#users p{
+    font-size: small;
+}
+
+#views p{
+    font-size: small;
+}
